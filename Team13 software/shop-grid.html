@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="DigiArt Template">
+    <meta name="description" content="eWaste Template">
     <meta name="keywords" content="DigiArt, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DigiArt | Template</title>
+    <title>eWaste | Template</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
@@ -21,9 +21,16 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <script>fetch('https://jsonplaceholder.typicode.com/todos/1')
+        .then(response => response.json())
+        .then(json => console.log(json))
+    </script>
+
 </head>
 
 <body>
+
     <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
@@ -33,7 +40,7 @@
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
+            <a href="#"><img src="img/eWaste-logo.png" alt=""></a>
         </div>
         <div class="humberger__menu__cart">
             <ul>
@@ -47,10 +54,7 @@
                 <img src="img/language.png" alt="">
                 <div>English</div>
                 <span class="arrow_carrot-down"></span>
-                <ul>
-                    <li><a href="#">Spanis</a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
+
             </div>
             <div class="header__top__right__auth">
                 <a href="login.html"><i class="fa fa-user"></i> Login</a>
@@ -141,7 +145,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="index.html"><img src="img/logo.png" alt=""></a>
+                        <a href="index.html"><img src="img/eWaste-logo.png" alt=""></a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-9">
@@ -203,14 +207,14 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>All types</span>
                         </div>
                         <ul>
-                            <li><a href="shop-grid.html">Art</a></li>
-                            <li><a href="shop-grid.html">Virtual Worlds</a></li>
-                            <li><a href="shop-grid.html">NFT Gifts</a></li>
-                            <li><a href="shop-grid.html">Collectibles</a></li>
-                            <li><a href="shop-grid.html">Trading Cards</a></li>
+                            <li><a href="shop-grid.html">iphone</a></li>
+                            <li><a href="shop-grid.html">Sony</a></li>
+                            <li><a href="shop-grid.html">HuaWei</a></li>
+                            <li><a href="shop-grid.html">Galaxy</a></li>
+                            <li><a href="shop-grid.html">Nokia</a></li>
                         </ul>
                     </div>
                 </div>
@@ -219,7 +223,7 @@
                         <div class="hero__search__form">
                             <form action="#">
                                 
-                                <input type="text" placeholder="Search Digital Assets">
+                                <input type="text" placeholder="Search devices">
                                 <button type="submit" class="site-btn">SEARCH</button>
                             </form>
                         </div>
@@ -240,15 +244,15 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/breadcrumb.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="img/E-Waste.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Digital Assets</h2>
+                        <h2>eWaste</h2>
                         <div class="breadcrumb__option">
                             <a href="index.html">Home</a>
-                            <span>Shop style 1</span>
+
                         </div>
                     </div>
                 </div>
@@ -264,15 +268,15 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2>New Added Assets</h2>
+                        <h2>Devices</h2>
                     </div>
                     <div class="featured__controls">
                         <ul>
                             <li class="active" data-filter="*">All</li>
-                            <li data-filter=".art">Art</li>
-                            <li data-filter=".virtual-worlds">Virtual Worlds</li>
-                            <li data-filter=".Collectibles">Collectibles</li>
-                            <li data-filter=".trading-cards">Trading Cards</li>
+                            <li data-filter=".art">Current</li>
+                            <li data-filter=".virtual-worlds">Recycle</li>
+                            <li data-filter=".Collectibles">Rare</li>
+                            <li data-filter=".trading-cards">Unknown</li>
                         </ul>
                     </div>
                 </div>
@@ -280,7 +284,7 @@
             <div class="row featured__filter">
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix art virtual-worlds">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/phone/iphone-13-pro.png">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -288,22 +292,22 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="shop-details.html">vitalik buterin Pixel Portrait</a></h6>
+                            <h6><a href="shop-details.html">iphone 13 pro</a></h6>
                         </div>
                         <div class="item-details">
                             <div class="item-pri">
-                                <h5>0.2 ETH <span>20/20</span></h5>
-                                <p>Bid 0.001 wETH</p>
+                                <h5>price <span>£100</span></h5>
+                                <p>Current</p>
                             </div>
                             <div class="impressions">
-                                <i class="fa fa-heart-o"></i>120
+                                <i class="fa fa-heart-o"></i>100
                             </div>
                         </div>
                         <div class="author-details">
                             <div class="author-info">
                                 <img src="img/author/user-1.png" class="avatar" alt="">
                                 <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Smith Wright</p>
+                                <p>Owen</p>
                             </div>
                             <div class="author-rate">
                                 <i class="fa fa-star star-icon"></i>4.5
@@ -313,7 +317,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix Collectibles trading-cards">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/phone/galaxy-s20.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -321,22 +325,22 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Crypto Desire #1 | Jerry</a></h6>
+                            <h6><a href="shop-details.html">Galaxy S20</a></h6>
                         </div>
                         <div class="item-details">
                             <div class="item-pri">
-                                <h5>0.2 ETH <span>20/20</span></h5>
-                                <p>Bid 0.001 wETH</p>
+                                <h5>price <span>£80</span></h5>
+                                <p>Current</p>
                             </div>
                             <div class="impressions">
-                                <i class="fa fa-heart-o"></i>120
+                                <i class="fa fa-heart-o"></i>80
                             </div>
                         </div>
                         <div class="author-details">
                             <div class="author-info">
                                 <img src="img/author/user-2.png" class="avatar" alt="">
                                 <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Amanda Will</p>
+                                <p>Meifang</p>
                             </div>
                             <div class="author-rate">
                                 <i class="fa fa-star star-icon"></i>4.3
@@ -346,7 +350,7 @@
                 </div>
                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix Collectibles virtual-worlds">
                     <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
+                        <div class="featured__item__pic set-bg" data-setbg="img/phone/NokiaG50.jpg">
                             <ul class="featured__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -354,22 +358,22 @@
                             </ul>
                         </div>
                         <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Animal Mask: Black Panther</a></h6>
+                            <h6><a href="shop-details.html">Nokia G50</a></h6>
                         </div>
                         <div class="item-details">
                             <div class="item-pri">
-                                <h5>0.2 ETH <span>10/10</span></h5>
-                                <p>Bid 0.001 wETH</p>
+                                <h5>price <span>£75</span></h5>
+                                <p>Recycle</p>
                             </div>
                             <div class="impressions">
-                                <i class="fa fa-heart-o"></i>100
+                                <i class="fa fa-heart-o"></i>50
                             </div>
                         </div>
                         <div class="author-details">
                             <div class="author-info">
                                 <img src="img/author/user-3.png" class="avatar" alt="">
                                 <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>William Nash</p>
+                                <p>Meihan</p>
                             </div>
                             <div class="author-rate">
                                 <i class="fa fa-star star-icon"></i>4.7
@@ -548,57 +552,27 @@
     <!-- Featured Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer spad">
+    <footer class="footer spad" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
-                        <div class="footer__about__logo">
-                            <a href="index.html"><img src="img/logo.png" alt=""></a>
-                        </div>
+
                         <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone:  hello@domain.com</li>
-                            <li>Email: hello@domain.com</li>
+                            <li>Address: S2 4BF Boston Street</li>
+                            <li>Phone:  +44 7579123456</li>
+                            <li>Email: eWastedesk@work.com</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
                     <div class="footer__widget">
-                        <h6>Useful Links</h6>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                        </ul>
+
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
-                    <div class="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
-                        <form action="#">
-                            <input type="text" placeholder="Enter your mail">
-                            <button type="submit" class="site-btn">Subscribe</button>
-                        </form>
-                        <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
             
