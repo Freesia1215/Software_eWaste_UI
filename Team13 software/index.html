@@ -22,6 +22,11 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <script>fetch('https://jsonplaceholder.typicode.com/todos/1')
+        .then(response => response.json())
+        .then(json => console.log(json))
+    </script>
 </head>
 
 <body>
@@ -33,62 +38,7 @@
     <!-- Humberger Begin -->
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
-        <div class="humberger__menu__logo">
-            <a href="#"><img src="img/logo.png" alt=""></a>
-        </div>
-        <div class="humberger__menu__cart">
-            <ul>
-                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-            </ul>
-            <div class="header__cart__price">item: <span>$150.00</span></div>
-        </div>
-        <div class="humberger__menu__widget">
-            <div class="header__top__right__language">
-                <img src="img/language.png" alt="">
-                <div>English</div>
-                <span class="arrow_carrot-down"></span>
-                <ul>
-                    <li><a href="#">Spanis</a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
-            </div>
-            <div class="header__top__right__auth">
-                <a href="login.html"><i class="fa fa-user"></i> Login</a>
-            </div>
-        </div>
-        <nav class="humberger__menu__nav mobile-menu">
-            <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="#">Dicover</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="shop-grid.html">Discover Style 1</a></li>
-                        <li><a href="shop-grid-2.html">Discover Style 2</a></li>
-                        <li><a href="shop-grid-3.html">Discover Style 3</a></li>
-                        <li><a href="shop-details.html">Item Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="activity.html">Activity</a></li>
-                <li><a href="#">Community</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="blog-details.html">Blog Article</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="help-center.html">Help Center</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Pages</a>
-                    <ul class="header__menu__dropdown">
-                        <li><a href="connect-wallet.html">Connect Wallet</a></li>
-                        <li><a href="authors.html">Authors</a></li>
-                        <li><a href="profile.html">Author Profile</a></li>
-                        <li><a href="create-item.html">Create Item</a></li>
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="signup.html">Signup</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <nav class="humberger__menu__nav mobile-menu"></nav>
         <div id="mobile-menu-wrap"></div>
         <div class="header__top__right__social">
             <a href="#"><i class="fa fa-facebook"></i></a>
@@ -108,27 +58,16 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
                             <ul>
-                                <li><i class="fa fa-envelope"></i> hello@domain.com</li>
-                                <li>NFTs Assets Starting From 0.1 ETH</li>
+                                <li><i class="fa fa-envelope"></i> eWastedesk@work.com</li>
+                                <li>eWaste Ltd</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__right">
-                            <div class="header__top__right__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                            </div>
+
                             <div class="header__top__right__language">
-                                <img src="img/language.png" alt="">
-                                <div>English</div>
-                                <span class="arrow_carrot-down"></span>
-                                <ul>
-                                    <li><a href="#">Spanis</a></li>
-                                    <li><a href="#">English</a></li>
-                                </ul>
+
                             </div>
                             <div class="header__top__right__auth">
                                 <a href="#"><i class="fa fa-user"></i> Login</a>
@@ -149,28 +88,24 @@
                     <nav class="header__menu">
                         <ul>
                             <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="#">Dicover</a>
+                            <li><a href="#">Device</a>
                                 <ul class="header__menu__dropdown">
-                                    <li><a href="shop-grid.html">Discover Style 1</a></li>
-                                    <li><a href="shop-grid-2.html">Discover Style 2</a></li>
-                                    <li><a href="shop-grid-3.html">Discover Style 3</a></li>
-                                    <li><a href="shop-details.html">Item Details</a></li>
+                                    <li><a href="shop-grid.html">Device list</a></li>
                                 </ul>
                             </li>
-                            <li><a href="activity.html">Activity</a></li>
-                            <li><a href="#">Community</a>
+                            <li><a href="#">My devices</a>
                                 <ul class="header__menu__dropdown">
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-details.html">Blog Article</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="help-center.html">Help Center</a></li>
+                                    <li><a href="#">Device status</a></li>
+                                    <li><a href="#">--</a></li>
+                                    <li><a href="#">--</a></li>
+                                    <li><a href="#">Help Center</a></li>
                                 </ul>
                             </li>
+
+
                             <li><a href="#">Pages</a>
                                 <ul class="header__menu__dropdown">
                                     <li><a href="connect-wallet.html">Connect Wallet</a></li>
-                                    <li><a href="authors.html">Authors</a></li>
-                                    <li><a href="profile.html">Author Profile</a></li>
                                     <li><a href="create-item.html">Create Item</a></li>
                                     <li><a href="login.html">Login</a></li>
                                     <li><a href="signup.html">Signup</a></li>
@@ -179,15 +114,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="col-lg-3">
-                    <div class="header__cart">
-                        <ul>
-                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
-                        </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
-                    </div>
-                </div>
+                
             </div>
             <div class="humberger__open">
                 <i class="fa fa-bars"></i>
@@ -197,52 +124,18 @@
     <!-- Header Section End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero hero-normal">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="hero__categories">
-                        <div class="hero__categories__all">
-                            <i class="fa fa-bars"></i>
-                            <span>All departments</span>
-                        </div>
-                        <ul>
-                            <li><a href="shop-grid.html">Art</a></li>
-                            <li><a href="shop-grid.html">Virtual Worlds</a></li>
-                            <li><a href="shop-grid.html">NFT Gifts</a></li>
-                            <li><a href="shop-grid.html">Collectibles</a></li>
-                            <li><a href="shop-grid.html">Trading Cards</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="hero__search">
-                        <div class="hero__search__form">
-                            <form action="#">
-                                
-                                <input type="text" placeholder="Search Digital Assets">
-                                <button type="submit" class="site-btn">SEARCH</button>
-                            </form>
-                        </div>
-                        <div class="hero__search__phone">
-                            <div class="hero__search__phone__icon">
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                            <div class="hero__search__phone__text">
-                                <h5>hello@domain.com</h5>
-                                <span>support 24/7 time</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
+
+
                 <div class="col-lg-12">
-                    <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
+                    <div class="hero__item set-bg" data-setbg="img/international-e-waste-day.jpg">
                         <div class="col-xl-5 col-lg-7 col-md-12">
                             <div class="hero__text">
-                                <span class="offer-span">Limitted time</span>
-                                <h2>Discover, Collect and Sell <span class="hero-span"> NFT Assets</span> </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                                <a href="shop-grid.html" class="primary-btn">SHOP NOW</a>
+                                <span class="offer-span">Begin now</span>
+                                <h2>Sell and Recycle <span class="hero-span"> eWaste</span> </h2>
+                                <p style="color: white; font-size: 20px">You can sell your devices or browse our web to find your favourite devices!</p>
+
                             </div>
                         </div>
                         
@@ -253,642 +146,13 @@
     </section>
     <!-- Hero Section End -->
 
-    <!-- Categories Section Begin -->
-    <section class="categories">
-        <div class="container">
-            <div class="row">
-                <div class="categories__slider owl-carousel">
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
-                            <h5><a href="shop-grid-3.html">Special Card</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
-                            <h5><a href="shop-grid-3.html">Voodoo Bundle</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
-                            <h5><a href="shop-grid-3.html">New World</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
-                            <h5><a href="shop-grid-3.html">Everyone Wins</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
-                            <h5><a href="shop-grid-3.html">Crypto Portals</a></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Categories Section End -->
 
-    <!-- Top Authors Section Begin -->
-    <section class="latest-product section-padding-100-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Top Sellers</h2>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <div class="top-author">
-                            <a href="profile.html" class="author-info">
-                                <img src="img/author/user-1.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </a>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>EagleEye</h5></a>
-                                <p>Earned 2.7 ETH</p>
-                            </div>
-                            <div class="author-num">1</div>
-                        </div>
-                        <div class="top-author">
-                            <a href="profile.html" class="author-info">
-                                <img src="img/author/user-2.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </a>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>The Luck Shop</h5></a>
-                                <p>Earned 2.3 ETH</p>
-                            </div>
-                            <div class="author-num">2</div>
-                        </div>
-                        <div class="top-author">
-                            <a href="profile.html" class="author-info">
-                                <img src="img/author/user-3.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </a>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>BigComicArt</h5></a>
-                                <p>Earned 2.0 ETH</p>
-                            </div>
-                            <div class="author-num">3</div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <div class="top-author">
-                            <a href="profile.html" class="author-info">
-                                <img src="img/author/user-1.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </a>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>EagleEye</h5></a>
-                                <p>Earned 2.7 ETH</p>
-                            </div>
-                            <div class="author-num">4</div>
-                        </div>
-                        <div class="top-author">
-                            <a href="profile.html" class="author-info">
-                                <img src="img/author/user-2.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </a>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>The Luck Shop</h5></a>
-                                <p>Earned 2.3 ETH</p>
-                            </div>
-                            <div class="author-num">5</div>
-                        </div>
-                        <div class="top-author">
-                            <a href="profile.html" class="author-info">
-                                <img src="img/author/user-3.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </a>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>BigComicArt</h5></a>
-                                <p>Earned 2.0 ETH</p>
-                            </div>
-                            <div class="author-num">6</div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <div class="top-author">
-                            <a href="profile.html" class="author-info">
-                                <img src="img/author/user-1.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </a>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>EagleEye</h5></a>
-                                <p>Earned 2.7 ETH</p>
-                            </div>
-                            <div class="author-num">7</div>
-                        </div>
-                        <div class="top-author">
-                            <a href="profile.html" class="author-info">
-                                <img src="img/author/user-2.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </a>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>The Luck Shop</h5></a>
-                                <p>Earned 2.3 ETH</p>
-                            </div>
-                            <div class="author-num">8</div>
-                        </div>
-                        <div class="top-author">
-                            <a href="profile.html" class="author-info">
-                                <img src="img/author/user-3.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </a>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>BigComicArt</h5></a>
-                                <p>Earned 2.0 ETH</p>
-                            </div>
-                            <div class="author-num">9</div>
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-                    <div class="latest-product__text">
-                        <div class="top-author">
-                            <div class="author-info">
-                                <img src="img/author/user-1.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </div>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>EagleEye</h5></a>
-                                <p>Earned 2.7 ETH</p>
-                            </div>
-                            <div class="author-num">10</div>
-                        </div>
-                        <div class="top-author">
-                            <div class="author-info">
-                                <img src="img/author/user-2.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </div>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>The Luck Shop</h5></a>
-                                <p>Earned 2.3 ETH</p>
-                            </div>
-                            <div class="author-num">11</div>
-                        </div>
-                        <div class="top-author">
-                            <a href="profile.html" class="author-info">
-                                <img src="img/author/user-3.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                            </a>
-                            <div class="item-pri">
-                                <a href="profile.html"><h5>BigComicArt</h5></a>
-                                <p>Earned 2.0 ETH</p>
-                            </div>
-                            <div class="author-num">12</div>
-                        </div>
-                        
-                    </div>
-                </div>
-              
-            </div>
-        </div>
-    </section>
-    <!-- Top Authors Section End -->
 
-    <!-- Featured Section Begin -->
-    <section class="featured section-padding-85-0">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Featured Assets</h2>
-                    </div>
-                    <div class="featured__controls">
-                        <ul>
-                            <li class="active" data-filter="*">All</li>
-                            <li data-filter=".art">Art</li>
-                            <li data-filter=".virtual-worlds">Virtual Worlds</li>
-                            <li data-filter=".Collectibles">Collectibles</li>
-                            <li data-filter=".trading-cards">Trading Cards</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row featured__filter">
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix art virtual-worlds">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">vitalik buterin Pixel Portrait</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.2 ETH <span>20/20</span></h5>
-                                <p>Bid 0.001 wETH</p>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>120
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-1.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Smith Wright</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.5
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix Collectibles trading-cards">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Crypto Desire #1 | Jerry</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.2 ETH <span>20/20</span></h5>
-                                <p>Bid 0.001 wETH</p>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>120
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-2.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Amanda Will</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.3
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix Collectibles virtual-worlds">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Animal Mask: Black Panther</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.2 ETH <span>10/10</span></h5>
-                                <p>Bid 0.001 wETH</p>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>100
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-3.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>William Nash</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.7
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix trading-cards art">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Flash-bot[Reverse mod]</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.32 ETH <span>1/20</span></h5>
-                                <p>Bid 0.001 wETH</p>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>111
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-4.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Robert Alion</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.8
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix virtual-worlds Collectibles">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Animal Mask: Black Panther</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.2 ETH <span>20/20</span></h5>
-                                <p>Bid 0.001 wETH</p>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>120
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-1.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Noran Arnof</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.3
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix art trading-cards">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Animal Mask: Black Panther</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.2 ETH <span>20/20</span></h5>
-                                <p>Bid 0.001 wETH</p>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>120
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-2.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Amanda Will</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.3
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix virtual-worlds Collectibles">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Animal Mask: Black Panther</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.2 ETH <span>10/10</span></h5>
-                                <p>Bid 0.001 wETH</p>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>100
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-3.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>William Nash</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.7
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix trading-cards Collectibles">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
-                            <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Animal Mask: Black Panther</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.32 ETH <span>1/20</span></h5>
-                                <p>Bid 0.001 wETH</p>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>111
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-4.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Robert Alion</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.8
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 text-center"><a href="#" class="b-blue-btn load-more">Load More</a></div>
-            </div>
-        </div>
-    </section>
-    <!-- Featured Section End -->
 
-    <!-- Live auctions Section Begin -->
-    <section class="featured  section-padding-100-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Live auctions <img src="img/fire.png" width="33" alt=""></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row featured__filter">
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix art virtual-worlds">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-9.jpg">
-                        </div>
-                        <div class="count-down titled circled text-center">
-                            <div class="simple_timer"></div>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">vitalik buterin Pixel Portrait</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.2 ETH <span>20/20</span></h5>
-                                <a href="#"><p>Place a Bid Now</p></a>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>120
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-1.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Smith Wright</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.5
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix Collectibles trading-cards">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
-                          
-                        </div>
-                        <div class="count-down titled circled text-center">
-                            <div class="simple_timer"></div>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Crypto Desire #1 | Jerry</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.2 ETH <span>20/20</span></h5>
-                                <a href="#"><p>Place a Bid Now</p></a>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>120
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-2.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Amanda Will</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.3
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix Collectibles virtual-worlds">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
-                            
-                        </div>
-                        <div class="count-down titled circled text-center">
-                            <div class="simple_timer"></div>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Animal Mask: Black Panther</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.2 ETH <span>10/10</span></h5>
-                                <a href="#"><p>Place a Bid Now</p></a>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>100
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-3.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>William Nash</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.7
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mix trading-cards art">
-                    <div class="featured__item">
-                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
-                            
-                        </div>
-                        <div class="count-down titled circled text-center">
-                            <div class="simple_timer"></div>
-                        </div>
-                        <div class="featured__item__text">
-                            <h6><a href="shop-details.html">Flash-bot[Reverse mod]</a></h6>
-                        </div>
-                        <div class="item-details">
-                            <div class="item-pri">
-                                <h5>0.32 ETH <span>1/20</span></h5>
-                                <a href="#"><p>Place a Bid Now</p></a>
-                            </div>
-                            <div class="impressions">
-                                <i class="fa fa-heart-o"></i>111
-                            </div>
-                        </div>
-                        <div class="author-details">
-                            <div class="author-info">
-                                <img src="img/author/user-4.png" class="avatar" alt="">
-                                <img src="https://brightthemes.online/digiart/img/star.svg" class="star" alt="">
-                                <p>Robert Alion</p>
-                            </div>
-                            <div class="author-rate">
-                                <i class="fa fa-star star-icon"></i>4.8
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!-- Live auctions Section End -->
+
+
+
+
 
     <!-- Blog Section Begin -->
     <section class="from-blog spad padding-top-0">
@@ -896,7 +160,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title from-blog__title">
-                        <h2>From The Blog</h2>
+                        <h2>Start</h2>
                     </div>
                 </div>
             </div>
@@ -904,45 +168,36 @@
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="img/blog/blog-1.jpg" alt="">
+                            <img src="img/Own.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> May 4,2021</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="blog.html">Latest and Trending NFTs Technology</a></h5>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+
+                            <h5 style="text-decoration: underline"><a href="#">Own device</a></h5>
+                            <p>You can see your own device here</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="img/blog/blog-2.jpg" alt="">
+                            <img src="img/Other.jpg" alt="">
                         </div>
                         <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> May 4,2021</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="blog.html">6 ways to Get Rare Digital Art</a></h5>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+
+                            <h5 style="text-decoration: underline"><a href="#">Other devices</a></h5>
+                            <p>See other people's devices </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="blog__item">
                         <div class="blog__item__pic">
-                            <img src="img/blog/blog-3.jpg" alt="">
+                            <img src="img/data.png" alt="">
                         </div>
                         <div class="blog__item__text">
-                            <ul>
-                                <li><i class="fa fa-calendar-o"></i> May 4,2021</li>
-                                <li><i class="fa fa-comment-o"></i> 5</li>
-                            </ul>
-                            <h5><a href="blog.html">Visit the Creative NFTs Marketplace</a></h5>
-                            <p>Sed quia non numquam modi tempora indunt ut labore et dolore magnam aliquam quaerat </p>
+
+                            <h5 style="text-decoration: underline"><a href="#">Data</a></h5>
+                            <p>Store your data </p>
                         </div>
                     </div>
                 </div>
@@ -958,50 +213,30 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="index.html"><img src="img/logo.png" alt=""></a>
+                            <a href="index.html"><img src="img/eWaste-logo.png" alt=""></a>
                         </div>
                         <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone:  hello@domain.com</li>
-                            <li>Email: hello@domain.com</li>
+                            <li>Address: S2 4BF Boston Street</li>
+                            <li>Phone:  +44 7579888666</li>
+                            <li>Email: eWastedesk@work.com</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
                     <div class="footer__widget">
-                        <h6>Useful Links</h6>
-                        <ul>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">About Our Shop</a></li>
-                            <li><a href="#">Secure Shopping</a></li>
-                            <li><a href="#">Delivery infomation</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Our Sitemap</a></li>
-                        </ul>
-                        <ul>
-                            <li><a href="#">Who We Are</a></li>
-                            <li><a href="#">Our Services</a></li>
-                            <li><a href="#">Projects</a></li>
-                            <li><a href="#">Contact</a></li>
-                            <li><a href="#">Innovation</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                        </ul>
                     </div>
-                </div>
+
+                    </div>
+
                 <div class="col-lg-4 col-md-12">
                     <div class="footer__widget">
-                        <h6>Join Our Newsletter Now</h6>
-                        <p>Get E-mail updates about our latest shop and special offers.</p>
+                        <h6>Join eWaste Now</h6>
+                        <p>Input your email, you can get the latest information about us.</p>
                         <form action="#">
                             <input type="text" placeholder="Enter your mail">
                             <button type="submit" class="site-btn">Subscribe</button>
                         </form>
-                        <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div>
+
                     </div>
                 </div>
             </div>
