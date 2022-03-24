@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="381f62b8-149e-4623-9dc6-b53e24917ad7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img/black_team13_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/span.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/team13_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload-device.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Own-devices.html" beforeDir="false" afterPath="$PROJECT_DIR$/Own-devices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.html" beforeDir="false" afterPath="$PROJECT_DIR$/data.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -42,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648134681617</updated>
       <workItem from="1648134684107" duration="707000" />
+      <workItem from="1648142066793" duration="3826000" />
     </task>
     <servers />
   </component>
