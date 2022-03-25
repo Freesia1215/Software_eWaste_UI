@@ -5,6 +5,9 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+router.get('/owndevice',function(req,res,next){
+  res.render('owndevice',{title:'owndevice'})
+})
 
 router.get('/upload',function(req, res){
   res.render('upload.ejs')
