@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="eWaste Recycle">
+        <meta name="keywords" content="eWaste, recycle, html">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>eWaste</title>
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+        <!-- Css Styles -->
+        <link rel="stylesheet" href="/stylesheets/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="/stylesheets/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="/stylesheets/elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="/stylesheets/nice-select.css" type="text/css">
+        <link rel="stylesheet" href="/stylesheets/jquery-ui.min.css" type="text/css">
+        <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="/stylesheets/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="/stylesheets/ourstyle.css" type="text/css">
+
+        <script>
+            fetch('https://jsonplaceholder.typicode.com/todos/1')
+                .then(response => response.json())
+                .then(json => console.log(json))
+
+            function chg(){
+                if(document.getElementById("sel").value=="txt"){
+                    document.getElementById("txt").style.display="";
+                    document.getElementById("btn").style.display="none";
+                }else{
+                    document.getElementById("txt").style.display="none";
+                    document.getElementById("btn").style.display="";
+                }
+            }
+        </script>
+
+    </head>
+
+    <body>
+
+        <!-- Header Section Begin -->
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="header__top__left">
+                                <ul>
+                                    <li><i class="fa fa-envelope"></i> eWastedesk@work.com</li>
+                                    <li>eWaste Ltd</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="header__top__right">
+                                <div class="header__top__right__auth">
+                                    <a href="/login"><i class="fa fa-user"></i> Login</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="header__logo">
+                            <a href="#"><img src="images/black_team13_logo.png" alt="" width="80"></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-9">
+                        <nav class="header__menu" style="margin-left: 10%">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+
+                                <li><a href="#">My devices</a>
+                                    <ul class="header__menu__dropdown">
+                                        <li><a href="#">Device status</a></li>
+                                        <li><a href="#">--</a></li>
+                                        <li><a href="#">--</a></li>
+                                        <li><a href="#">Help Center</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="active"><a href="#">Main</a>
+                                    <ul class="header__menu__dropdown">
+                                        <li><a href="connect-wallet.html">Connect Wallet</a></li>
+                                        <li><a class="active" href="create-item.html">Upload Device</a></li>
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="signup.html">Signup</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                </div>
+<!--                <div class="humberger__open">-->
+<!--                    <i class="fa fa-bars"></i>-->
+<!--                </div>-->
+            </div>
+            <img src="images/span.jpg">
+        </header>
+        <!-- Header Section End -->
+
+        <!-- Upload Section Begin -->
+        <section class="upload spad">
+            <div class="container">
+
+                <div class="upload__form">
+                    <h4>Uploading Device</h4>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-lg-8 col-md-6">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="upload__input">
+                                            <p>Device Category<span>*</span></p>
+                                            <div class="filter__sort">
+                                                <select>
+                                                    <option value="0">Default</option>
+                                                    <option value="0">Default</option>
+                                                </select>
+                                                <input type="text" placeholder="Serial Number" style="width:84%;margin-left:2%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="upload__input mt-20">
+                                            <p>Device Condition<span>*</span></p>
+                                            <input type="text" placeholder="e.g. Usage and Damage">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="upload__input mt-30">
+                                            <p>Description (Optional)<span>*</span></p>
+                                            <textarea rows="7" placeholder="e.g. Date of Purchase"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="upload__input">
+                                            <p>Processing Choice<span>*</span></p>
+                                            <div class="filter__sort">
+                                                <select id="sel" onChange="chg()">
+                                                    <option value="txt">Data Retrieval</option>
+                                                    <option value="btn">Data Wiping</option>
+                                                </select>
+                                                <span>(* Data wiping is typically handled by third party at no cost)</span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6" id="txt">
+                                        <div class="upload__input mt-30">
+                                            <p>Data Size<span>*</span></p>
+                                            <input type="text" placeholder="Estimated data size in KB, MB or GB">
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="upload__input mt-30">
+                                                    <p>Start Date<span>*</span></p>
+                                                    <input type="date">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="upload__input mt-30">
+                                                    <p>End Date<span>*</span></p>
+                                                    <input type="date">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="upload__input mt-30">
+                                            <p>Estimated Price<span>*</span></p>
+                                            <input type="text" placeholder="200$">
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="checkout__order mt-s">
+                                    <h4>Item Preview</h4>
+
+                                    <div class="featured__item">
+                                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg" style="background-image: url(&quot;img/featured/feature-1.jpg&quot;);">
+                                        </div>
+                                        <div class="featured__item__text">
+                                            <!--                                        <h6><a href="shop-details.html">vitalik buterin Pixel Portrait</a></h6>-->
+                                            <!--                                        <a href="#" class="b-blue-btn load-more">Choose File</a>-->
+                                            <div class="upload-pic">
+                                                <p style="font-size:14px;">PNG, PDF or JPEG. Max 10mb</p>
+                                                <a href="#" class="b-blue-btn load-more">Choose File</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <button type="submit" class="site-btn">Submit Info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Checkout Section End -->
+
+        <!-- Footer Section Begin -->
+        <footer class="footer spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer__about">
+                            <div class="footer__about__logo">
+                                <a href="index.html"><img src="img/black_team13_logo.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                        <div class="footer__about" style="padding-top: 50px">
+                            <ul>
+                                <li>Address: S2 4BF Boston Street</li>
+                                <li>Phone:  +44 7579888666</li>
+                                <li>Email: eWastedesk@work.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="footer__widget">
+                            <h6>Join eWaste Now</h6>
+                            <p>Input your email, you can get the latest information about us.</p>
+                            <form action="#">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit" class="site-btn">Subscribe</button>
+                            </form>
+                            <div class="footer__widget__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer__copyright">
+                            <div class="footer__copyright__text">
+                                <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights By Team 13</p></div>
+                            <!--                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+
+        <!-- Js Plugins -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+        <script src="js/mixitup.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+
+
+
+    </body>
+
+</html>

@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content="DigiArt Template">
-    <meta name="keywords" content="DigiArt, unica, creative, html">
+    <meta name="description" content="eWaste Recycle">
+    <meta name="keywords" content="eWaste, recycle, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>eWaste</title>
@@ -20,7 +20,6 @@
     <link rel="stylesheet" href="/stylesheets/jquery-ui.min.css" type="text/css">
     <link rel="stylesheet" href="/stylesheets/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="/stylesheets/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
     <link rel="stylesheet" href="/stylesheets/ourstyle.css" type="text/css">
 
     <script>fetch('https://jsonplaceholder.typicode.com/todos/1')
@@ -50,13 +49,9 @@
             </div>
           </div>
           <div class="col-lg-6 col-md-6">
-            <div>
-
-              <div>
-
-              </div>
-              <div class="header__top__right">
-                <a href="login.html"><i class="fa fa-user"></i> Login</a>
+            <div class="header__top__right">
+              <div class="header__top__right__auth">
+                <a href="/login"><i class="fa fa-user"></i> Login</a>
               </div>
             </div>
           </div>
@@ -70,9 +65,9 @@
         <div class="col-xl-6 col-lg-8">
           <nav class="header__menu">
             <ul>
-              <li class="header__font"><a href="index.html">Home</a></li>
+              <li class="active"><a href="index.html">Home</a></li>
 
-              <li class="header__font"><a href="#">My devices</a>
+              <li><a href="#">My devices</a>
                 <ul class="header__menu__dropdown">
                   <li><a href="#">Device status</a></li>
                   <li><a href="#">--</a></li>
@@ -82,10 +77,10 @@
               </li>
 
 
-              <li class="header__font"><a href="#">Main</a>
+              <li><a href="#">Main</a>
                 <ul class="header__menu__dropdown">
                   <li><a href="connect-wallet.html">Connect Wallet</a></li>
-                  <li><a href="create-item.html">Create Item</a></li>
+                  <li><a href="/upload">Upload Device</a></li>
                   <li><a href="login.html">Login</a></li>
                   <li><a href="signup.html">Signup</a></li>
                 </ul>
