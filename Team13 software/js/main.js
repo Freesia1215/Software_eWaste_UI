@@ -4,6 +4,10 @@
 
 (function ($) {
 
+    /*------------------
+        Preloader
+更多精品模板：Http://www.bootstrapmb.com
+    --------------------*/
     $(window).on('load', function () {
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
