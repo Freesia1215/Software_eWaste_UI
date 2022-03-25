@@ -9,4 +9,8 @@ router.get('/owndevice',function(req,res,next){
   res.render('owndevice',{title:'owndevice'})
 })
 
+router.get('/upload',function(req, res){
+  res.render('upload.ejs')
+})
+
 module.exports = router;
