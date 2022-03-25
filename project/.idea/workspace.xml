@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="809c05d7-5784-46de-bfab-e918fc4915ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/ourstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Team13 software/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Team13 software/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/ourstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/ourstyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1648210509547</updated>
       <workItem from="1648210510658" duration="2167000" />
-      <workItem from="1648224103139" duration="3659000" />
+      <workItem from="1648224103139" duration="5878000" />
     </task>
     <servers />
   </component>
