@@ -27,6 +27,17 @@ img {
     background-position: center left;
 }
 
+.shape{
+    background: #0077cc;
+    height: 36px;
+    border-radius: 22px;
+    padding: 6px 12px;
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
 #preloder {
     position: fixed;
     width: 100%;
@@ -137,14 +148,114 @@ img {
     color: #000000;
 }
 
+.logo{
+    padding: 15px 0;
+}
+
+
+/* Title */
+
+.title{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.title h2{
+    color: #1c1c1c;
+    font-weight: 700;
+    position: relative;
+}
+
+/* Feature */
+.featured {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.featured__select {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.featured__select ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #1c1c1c;
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.featured__item {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 2px solid #eee;
+    border-radius: 20px
+}
+
+.featured__item__choose {
+    height: 270px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+}
+
+.featured__item__choose__hover {
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: all, 0.5s;
+    -moz-transition: all, 0.5s;
+    -ms-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    transition: all, 0.5s;
+}
+
+
+
+.featured__item__text {
+    text-align: left;
+    padding-top: 15px;
+}
+
+
+.featured__item__text h5 {
+    color: #252525;
+    font-weight: 700;
+}
+.featured {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.featured__select{
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 /* Device */
+
+.device{
+    padding-bottom: 50px;
+}
 .device__item{
     height: 431px;
     display: flex;
     margin-top: 30px;
     align-items: center;
     padding: 0 45px;
+}
+
+.device__item__second{
+    display: flex;
+    background-position: center;
+    align-items: center;
+    padding: 45px 0 40px;
 }
 
 .device__text{
@@ -163,6 +274,15 @@ img {
     color: #5a4ade;
     background: #fff;
 }
+
+.device__normal{
+    padding-bottom: 30px;
+
+}
+
+
+
+
 
 /*footer section */
 
