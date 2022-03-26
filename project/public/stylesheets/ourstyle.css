@@ -27,6 +27,17 @@ img {
     background-position: center left;
 }
 
+.shape{
+    background: #0077cc;
+    height: 36px;
+    border-radius: 22px;
+    padding: 6px 12px;
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
 #preloder {
     position: fixed;
     width: 100%;
@@ -79,20 +90,6 @@ img {
 .header__top__right{
     text-align: right;
     padding:10px 0 15px
-}
-
-.header__top__right__auth {
-    display: inline-block;
-}
-
-.header__top__right__auth a {
-    display: block;
-    font-size: 14px;
-    color: #1c1c1c;
-}
-
-.header__top__right__auth a i {
-    margin-right: 6px;
 }
 
 .header__menu {
@@ -149,28 +146,7 @@ img {
     visibility: visible;
 }
 
-.header__menu ul li:hover>a {
-    color: #0084ff;
-}
 
-.header__menu ul li:last-child {
-    margin-right: 0;
-}
-
-.header__menu ul li a {
-    font-size: 14px;
-    color: #252525;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 2px;
-    -webkit-transition: all, 0.3s;
-    -moz-transition: all, 0.3s;
-    -ms-transition: all, 0.3s;
-    -o-transition: all, 0.3s;
-    transition: all, 0.3s;
-    padding: 5px 0;
-    display: block;
-}
 
 .header__font{
     font-size: 20px;
@@ -178,64 +154,106 @@ img {
     color: #000000;
 }
 
-.header__logo {
+.logo {
     padding: 15px 0;
 }
+/* Feature */
+.featured {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
 
-.header__logo a {
+.featured__select {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.featured__select ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #1c1c1c;
     display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    cursor: pointer;
 }
 
-/*---------------------
-  Breadcrumb
------------------------*/
 
-.breadcrumb-section {
-    display: flex;
-    background-position: center;
-    align-items: center;
-    padding: 45px 0 40px;
+.featured__item {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 2px solid #eee;
+    border-radius: 20px
 }
 
-/*.breadcrumb__text h2 {*/
-/*    font-size: 46px;*/
-/*    color: #ffffff;*/
-/*    font-weight: 700;*/
-/*}*/
+.featured__item__choose {
+    height: 270px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+}
 
-/*.breadcrumb__option a {*/
-/*    display: inline-block;*/
-/*    font-size: 16px;*/
-/*    color: #ffffff;*/
-/*    font-weight: 700;*/
-/*    margin-right: 20px;*/
-/*    position: relative;*/
-/*}*/
+.featured__item__choose__hover {
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 100%;
+    text-align: center;
+    -webkit-transition: all, 0.5s;
+    -moz-transition: all, 0.5s;
+    -ms-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    transition: all, 0.5s;
+}
 
-/*.breadcrumb__option a:after {*/
-/*    position: absolute;*/
-/*    right: -12px;*/
-/*    top: 13px;*/
-/*    height: 1px;*/
-/*    width: 10px;*/
-/*    background: #ffffff;*/
-/*    content: "";*/
-/*}*/
 
-/*.breadcrumb__option span {*/
-/*    display: inline-block;*/
-/*    font-size: 16px;*/
-/*    color: #ffffff;*/
-/*}*/
+
+.featured__item__text {
+    text-align: left;
+    padding-top: 15px;
+}
+
+.featured__item__text h6 {
+    margin: 10px 0 20px;
+    font-weight: 600
+}
+
+.featured__item__text h6 a {
+    color: #252525;
+}
+
+.featured__item__text h5 {
+    color: #252525;
+    font-weight: 700;
+}
+.featured {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+
+
 
 
 /* Device */
+
+.device{
+    padding-bottom: 50px;
+}
 .device__item{
     height: 431px;
     display: flex;
     margin-top: 30px;
     align-items: center;
     padding: 0 45px;
+}
+
+.device__item__second{
+    display: flex;
+    background-position: center;
+    align-items: center;
+    padding: 45px 0 40px;
 }
 
 .device__text{
@@ -255,6 +273,24 @@ img {
     background: #fff;
 }
 
+.device__normal{
+    padding-bottom: 30px;
+
+}
+
+
+/* Title */
+
+.title{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.title h2{
+    color: #1c1c1c;
+    font-weight: 700;
+    position: relative;
+}
 /*---------------------
   Filter
 -----------------------*/
