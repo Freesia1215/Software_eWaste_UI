@@ -13,4 +13,8 @@ router.get('/upload',function(req, res){
   res.render('upload.ejs')
 })
 
+router.get('/download',function(req,res,next){
+  res.render('download',{title:'download'})
+})
+
 module.exports = router;
