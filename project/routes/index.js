@@ -19,6 +19,10 @@ router.get('/owndevice',function(req,res,next){
   res.render('owndevice',{title:'owndevice'})
 })
 
+router.get('/signel-item',function(req,res){
+  res.render('signel-item',{title:'signel-item'})
+})
+
 router.get('/upload',function(req, res){
   res.render('upload.ejs')
 })
