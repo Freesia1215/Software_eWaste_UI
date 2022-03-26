@@ -4,6 +4,47 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    color: #111111;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin: 30px;
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+hs{
+    font-size: 50px;
+    color: white;
+}
 p {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
@@ -658,6 +699,46 @@ img {
     overflow: hidden;
 }
 
+.footer__about {
+    margin-bottom: 30px;
+}
+
+.footer__about ul li {
+    font-size: 16px;
+    color: #1c1c1c;
+    line-height: 36px;
+    list-style: none;
+}
+
+.footer__about__logo {
+    margin-bottom: 15px;
+}
+
+.footer__widget ul {
+    width: 50%;
+    float: left;
+}
+
+.footer__widget ul li {
+    list-style: none;
+}
+
+
+.footer__widget form {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer__widget form input {
+    width: 90%;
+    font-size: 16px;
+    padding-left: 20px;
+    color: #1c1c1c;
+    height: 46px;
+    border: 1px solid #ededed;
+}
+
+
 /*pagination */
 
 .page__pagination{
@@ -832,7 +913,27 @@ img {
     opacity: 0;
 }
 
+.checkout__order {
+    padding: 40px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    background: #fff;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+}
+
 /*Button*/
+
+.primary-btn {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 28px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #0084ff;
+    letter-spacing: 2px;
+}
 
 .offer-btn{
     background: radial-gradient(115.34% 575.98% at 104.79% 0%, rgba(113, 227, 242, 0.17) 0%, rgba(124, 177, 255, 0.17) 44.96%, rgba(250, 0, 255, 0.09) 100%);
@@ -855,5 +956,44 @@ img {
     width: 480px;
 }
 
+/*Connect Wallet*/
+.wallet-label{
+    position: absolute;
+    top: -15px;
+    right: 15px;
+    z-index: 10;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-ent: center;
+    user-select: none;
+    height: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 32px;
+    border: 2px solid transparent;
+    background: rgb(4, 4, 5);
+    color: rgb(255, 255, 255);
+}
 
+.shoping__checkout {
+    background: #f5f5f5;
+    margin: 40px 30px 40px 30px;
+    position: relative;
+    padding: 40px 30px 40px 30px;
+}
 
+.shoping__checkout.v2{
+    background: #fff;
+    margin: 40px 30px 40px 30px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    padding: 40px 30px 40px 30px;
+}
+
+.shoping__checkout .primary-btn {
+    display: block;
+    text-align: center;
+    padding: 10px 15px 10px;
+}
