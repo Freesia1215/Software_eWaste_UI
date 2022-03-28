@@ -21,7 +21,7 @@
         <link rel="stylesheet" href="/stylesheets/slicknav.min.css" type="text/css">
         <link rel="stylesheet" href="/stylesheets/L_style.css" type="text/css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="/javascripts/index.js"></script>
+
 
         <script>fetch('https://jsonplaceholder.typicode.com/todos/1')
                 .then(response => response.json())
@@ -38,11 +38,23 @@
         </script>
 
         <script>
-            $(document).ready(function(){
-                $("button").click(function(){
-                    $.ajax({url:"",success:function(result){
-                        $("#user").html(result);
-                        }});
+            $(document).ready(function() {
+                $("button").click(function () {
+                    $.ajax({
+                        url: 'http://localhost:8080/user/1',
+                        data: JSON.stringify({}),
+                        contentType: 'application/json',
+                        dataType: 'json',
+                        type: 'POST',
+                        success: function (dataR) {
+
+                            console.log(222);
+                        },
+                        error: function (response) {
+
+                            alert(response.responseText);
+                        }
+                    });
                 });
             });
         </script>

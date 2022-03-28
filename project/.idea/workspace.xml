@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="809c05d7-5784-46de-bfab-e918fc4915ae" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/routes/backend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/m.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Team13 software/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Team13 software/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -70,7 +84,8 @@
       <workItem from="1648314782073" duration="6134000" />
       <workItem from="1648324474815" duration="137000" />
       <workItem from="1648328787014" duration="651000" />
-      <workItem from="1648389314264" duration="11214000" />
+      <workItem from="1648389314264" duration="12096000" />
+      <workItem from="1648470228395" duration="4961000" />
     </task>
     <servers />
   </component>
