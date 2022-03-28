@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 var re={}
-re.post=function (u,d,s,e)
+re.post=function (u,d,s)
 {
     fetch(u,{
         method:'post',
