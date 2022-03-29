@@ -66,7 +66,21 @@ img {
 .set-bg {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center left;
+    background-position: center;
+}
+
+.img-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    right: 100px;
+    top: 100px
 }
 
 .shape{
@@ -146,7 +160,7 @@ img {
 }
 
 .header__menu {
-    padding: 24px 0;
+    padding: 15px 0;
 }
 
 .header__menu ul li {
@@ -208,7 +222,7 @@ img {
 }
 
 .header__menu ul li a {
-    font-size: 14px;
+    font-size: 25px;
     color: #252525;
     text-transform: uppercase;
     font-weight: 700;
